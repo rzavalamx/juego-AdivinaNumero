@@ -9,7 +9,8 @@ let numeroSecreto = 0;
 let intentos = 0;
 // Almacenar cada uno de los Numeros Sorteados en una lista para no repetir el Numero ya Jugado.
 let listaNumerosSorteados = [];
-let numeroMaximo = 10; // Para evitar ciclar la Recursiviada.
+//let numeroMaximo = 10; // Para evitar ciclar la Recursiviada.
+let numeroMaximo = parseInt(prompt('Me indica la cantidad Máxima para adivinar un número, ejemplo entre 1 y 100'));
 
 console.log(numeroSecreto);
 
